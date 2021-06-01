@@ -1,6 +1,6 @@
 from tkinter import *
 window = Tk()
-# Функции
+# Функции(Какие?)
 def POR():
     if T0.get() == str(0) and T01.get() == str(0) and T1.get() == str(1) and T2.get() == str(2) and T3.get() == str(3) and T4.get() == str(4) and T5.get() == str(5) and T6.get() == str(6):
         T0['bg'] = 'green'
@@ -38,11 +38,12 @@ def RNR():
         K5['bg'] = 'red'
         K6['bg'] = 'red'
         K7['bg'] = 'red'
-# Сука пиши интерфейсы нормально
+# Геометрия окна
 window.resizable(width= False, height= False)
 window.geometry('1000x400')
 window.title('Химиические элементы')
 #window.iconbitmap('./icon.ico')
+# Вывод формулы
 labeT1 =Label(text="H     O ",fg="orange",font='arial 30',width=20,height=1)
 labeT2 =Label(text="  \   // ",fg="orange",font='arial 30',width=20,height=1)
 labeT3 =Label(text="C",fg="orange",font='arial 30',width=20,height=1)
